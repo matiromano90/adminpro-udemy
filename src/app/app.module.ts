@@ -7,6 +7,10 @@ import { APP_ROUTES } from './app.routes';
 // modulos
 import { PagesModule } from './pages/pages.module';
 
+// servicios
+import { ServiceModule } from './services/service.module';
+
+
 import { FormsModule } from '@angular/forms';
 // COMPONENTES
 import { AppComponent } from './app.component';
@@ -25,7 +29,8 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
